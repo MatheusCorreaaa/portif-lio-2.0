@@ -247,7 +247,7 @@ small {
   margin: auto 0 0;
   gap: clamp(25px, 3.4vw, 65px);
 }
-.avatar-slab {
+.portrait-slab {
   height: clamp(150px, 16.3vw, 247px);
   width: 32.5%;
   margin-left: calc((100vw - var(--frame)) / -2);
@@ -257,27 +257,16 @@ small {
   border-radius: 0 999px 999px 0;
   background: linear-gradient(110deg, #9d142e 0%, #e5374b 70%, #ff6567);
 }
-.avatar-slab img {
+.portrait-slab img {
   position: absolute;
   right: 0;
   top: 0;
   height: 100%;
-  width: 77%;
+  width: auto;
+  max-width: 84%;
   object-fit: cover;
-  object-position: 50% 62%;
-  mix-blend-mode: multiply;
-  filter: contrast(1.22) brightness(1.28);
+  object-position: center 28%;
   mask-image: linear-gradient(to right, transparent, #000 27%);
-}
-.avatar-slab:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent 0 3px,
-    #16060a22 3px 4px
-  );
 }
 .reg {
   position: absolute;
@@ -441,7 +430,8 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  mix-blend-mode: multiply;
+  display: block;
+  object-position: center 25%;
 }
 .caption {
   font-size: 0.75rem;
@@ -746,7 +736,7 @@ footer > a {
     min-height: 540px;
     height: 71svh;
   }
-  .avatar-slab {
+  .portrait-slab {
     width: 28%;
     height: clamp(115px, 18vw, 145px);
   }
@@ -764,10 +754,7 @@ footer > a {
     margin: 0;
   }
   .picture {
-    aspect-ratio: 2.5;
-  }
-  .picture img {
-    object-position: 50% 60%;
+    aspect-ratio: 1.35;
   }
   .contactgrid {
     gap: 2rem;
@@ -826,7 +813,7 @@ footer > a {
     gap: 14px;
     margin-top: auto;
   }
-  .avatar-slab {
+  .portrait-slab {
     width: 51%;
     height: 98px;
   }

@@ -18,7 +18,7 @@ A galeria reflete os repositórios fixados no perfil em novembro de 2026. O sext
 
 ## Implementação
 
-O site usa HTML, CSS e JavaScript. A capa combina o avatar do GitHub, um recorte vermelho e tipografia condensada. A navegação por âncoras conecta as seções de perfil, projetos e contato. O JavaScript atualiza o item ativo do menu conforme a rolagem. A página também oferece navegação por teclado e respeita a preferência de movimento reduzido.
+O site usa HTML, CSS e JavaScript. A capa combina meu retrato profissional, um recorte vermelho e tipografia condensada. A navegação por âncoras conecta as seções de perfil, projetos e contato. O JavaScript atualiza o item ativo do menu conforme a rolagem. A página também oferece navegação por teclado e respeita a preferência de movimento reduzido.
 
 ## Executar localmente
 
@@ -37,7 +37,7 @@ Abra <http://localhost:8000>. As fontes, imagens e o currículo são servidos ju
 | `index.html` | Biografia, projetos, tecnologias e links de contato. A galeria é editada manualmente. |
 | `style.css` | Cores, tipografia, composição da capa e layouts para diferentes telas. |
 | `nav.js` | Indicação da seção ativa no menu principal. |
-| `assets/` | Fontes locais, ícones, avatar, imagens dos projetos e currículo. |
+| `assets/` | Fontes locais, ícones, retrato, imagens dos projetos e currículo. |
 
 Para substituir o currículo, atualize `assets/matheus-correa-curriculo.pdf`.
 
