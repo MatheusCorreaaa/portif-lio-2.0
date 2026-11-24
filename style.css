@@ -78,10 +78,15 @@ header {
   position: relative;
 }
 .brand,
-.github,
+.social-link,
 nav {
   display: flex;
   align-items: center;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .brand {
   gap: 1.1rem;
@@ -123,7 +128,7 @@ nav a[aria-current] {
   background: var(--ice);
   font-weight: 600;
 }
-.github,
+.social-link,
 .cv,
 .readme,
 .hero-footer a,
@@ -132,13 +137,13 @@ nav a[aria-current] {
   align-items: center;
   gap: 0.55rem;
 }
-.github {
+.social-link {
   font: 400 0.85rem var(--mono);
   border: 1px solid #465057;
   border-radius: 50px;
   padding: 0.45rem 1rem;
 }
-.github:hover,
+.social-link:hover,
 .cv:hover {
   border-color: var(--ice);
   color: var(--ice);
@@ -522,8 +527,12 @@ details p {
 .hunter .projectart {
   background: radial-gradient(ellipse at center, #1d3144, #071019 75%);
 }
-.mem .projectart {
-  background: #08587c;
+.resolution .projectart {
+  background: radial-gradient(ellipse at center, #284557, #101c28 76%);
+}
+.resolution .projectart img {
+  width: min(46%, 170px);
+  height: 72%;
 }
 .books .projectart {
   background: #f0d6a7;
@@ -651,6 +660,18 @@ footer > a {
 .contact .sectioninner {
   padding-bottom: 2rem;
 }
+@media (max-width: 960px) {
+  .headrow nav {
+    position: static;
+    transform: none;
+  }
+  .social-links {
+    gap: 0.2rem;
+  }
+  .social-link span {
+    display: none;
+  }
+}
 @media (max-width: 780px) {
   .headrow {
     height: 67px;
@@ -664,10 +685,7 @@ footer > a {
   nav a {
     padding: 0.42rem 0.65rem;
   }
-  .github span {
-    display: none;
-  }
-  .github {
+  .social-link {
     border: 0;
     padding: 0.6rem;
   }
@@ -717,7 +735,7 @@ footer > a {
     font-size: 0.83rem;
     padding: 0.4rem 0.52rem;
   }
-  .github {
+  .social-link {
     padding: 0.3rem;
   }
   .hero-inner {
@@ -803,6 +821,17 @@ footer > a {
   }
   .caption {
     letter-spacing: 0.03em;
+  }
+}
+@media (max-width: 370px) {
+  .headrow {
+    width: 96vw;
+  }
+  .headrow nav a {
+    padding-inline: 0.32rem;
+  }
+  .social-links {
+    gap: 0;
   }
 }
 @media (prefers-reduced-motion: reduce) {
