@@ -11,7 +11,7 @@ Portfólio de desenvolvimento front-end com projetos em Angular, TypeScript e Ja
 | [Job Hunter](https://github.com/MatheusCorreaaa/job-hunter) | Aplicativo desktop em Electron que busca vagas de tecnologia e ajuda a acompanhar candidaturas. |
 | [Resolution Fast](https://github.com/MatheusCorreaaa/ResolutionFast) | Aplicativo em C# e Windows Forms para alternar a resolução da tela com um clique ou atalho de teclado. |
 | [Buscante](https://github.com/MatheusCorreaaa/buscante-livros) | Consulta a API do Google Books e exibe os detalhes dos livros encontrados. |
-| [Forms Angular](https://github.com/MatheusCorreaaa/Forms-angular) | Formulário de cadastro que valida os campos e preenche o endereço a partir do CEP. |
+| [The New York Coffee – Alphaville](https://github.com/MatheusCorreaaa/tnyc-alphaville) | Site da cafeteria com fotos e preços do cardápio, avaliações e informações para visita. |
 | [Lista de Compra](https://github.com/MatheusCorreaaa/Lista-de-compra) | Lista interativa para editar itens e marcar os produtos comprados. |
 
 A galeria inclui um link para o [README de apresentação](https://github.com/MatheusCorreaaa/MatheusCorreaaa).
@@ -43,4 +43,4 @@ Para substituir o currículo, atualize `assets/matheus-correa-curriculo.pdf`.
 
 ## Créditos
 
-As imagens de Job Hunter, Resolution Fast e Buscante vêm dos respectivos repositórios. O ícone de SQL representa um banco de dados relacional. Os demais ícones de tecnologia são do [Devicon](https://github.com/devicons/devicon). As famílias Barlow, Barlow Condensed, IBM Plex Mono e UnifrakturMaguntia estão disponíveis no [Google Fonts](https://fonts.google.com/). Os avisos de licença das fontes e dos ícones estão em [assets/licenses](assets/licenses/).
+As imagens de Job Hunter, Resolution Fast, Buscante e The New York Coffee vêm dos respectivos repositórios. O ícone de SQL representa um banco de dados relacional. Os demais ícones de tecnologia são do [Devicon](https://github.com/devicons/devicon). As famílias Barlow, Barlow Condensed, IBM Plex Mono e UnifrakturMaguntia estão disponíveis no [Google Fonts](https://fonts.google.com/). Os avisos de licença das fontes e dos ícones estão em [assets/licenses](assets/licenses/).
