@@ -1,0 +1,46 @@
+# Matheus Correa · Portfólio
+
+Portfólio de desenvolvimento front-end com projetos em Angular, TypeScript e JavaScript. A página reúne aplicações que desenvolvi, minha experiência na KPEyes, minha formação em Análise e Desenvolvimento de Sistemas e meu currículo em PDF.
+
+[Perfil no GitHub](https://github.com/MatheusCorreaaa) · [LinkedIn](https://www.linkedin.com/in/matheus-correa-798439250/)
+
+## Projetos em destaque
+
+| Projeto | O que faz |
+| --- | --- |
+| [Job Hunter](https://github.com/MatheusCorreaaa/job-hunter) | Aplicativo desktop em Electron que busca vagas de tecnologia e ajuda a acompanhar candidaturas. |
+| [Memoteca](https://github.com/MatheusCorreaaa/memoteca-angular) | Mural em Angular para criar, editar e favoritar pensamentos e citações. |
+| [Buscante](https://github.com/MatheusCorreaaa/buscante-livros) | Consulta a API do Google Books e exibe os detalhes dos livros encontrados. |
+| [Forms Angular](https://github.com/MatheusCorreaaa/Forms-angular) | Formulário de cadastro que valida os campos e preenche o endereço a partir do CEP. |
+| [Lista de Compra](https://github.com/MatheusCorreaaa/Lista-de-compra) | Lista interativa para editar itens e marcar os produtos comprados. |
+
+A galeria reflete os repositórios fixados no perfil em novembro de 2026. O sexto destaque leva ao [README de apresentação](https://github.com/MatheusCorreaaa/MatheusCorreaaa).
+
+## Implementação
+
+O site usa HTML, CSS e JavaScript. A capa combina o avatar do GitHub, um recorte vermelho e tipografia condensada. A navegação por âncoras conecta as seções de perfil, projetos e contato. O JavaScript atualiza o item ativo do menu conforme a rolagem. A página também oferece navegação por teclado e respeita a preferência de movimento reduzido.
+
+## Executar localmente
+
+Na raiz do repositório, com Python 3 instalado, execute o comando abaixo.
+
+```sh
+python3 -m http.server 8000
+```
+
+Abra <http://localhost:8000>. As fontes, imagens e o currículo são servidos junto com a página. O projeto está pronto para hospedagem estática.
+
+## Atualizar o conteúdo
+
+| Arquivo | Responsabilidade |
+| --- | --- |
+| `index.html` | Biografia, projetos, tecnologias e links de contato. A galeria é editada manualmente. |
+| `style.css` | Cores, tipografia, composição da capa e layouts para diferentes telas. |
+| `nav.js` | Indicação da seção ativa no menu principal. |
+| `assets/` | Fontes locais, ícones, avatar, imagens dos projetos e currículo. |
+
+Para substituir o currículo, atualize `assets/matheus-correa-curriculo.pdf`.
+
+## Créditos
+
+As imagens de Job Hunter, Memoteca e Buscante vêm dos respectivos repositórios. Os ícones de tecnologia são do [Devicon](https://github.com/devicons/devicon). As famílias Barlow, Barlow Condensed, IBM Plex Mono e UnifrakturMaguntia estão disponíveis no [Google Fonts](https://fonts.google.com/). Os avisos de licença das fontes e dos ícones estão em [assets/licenses](assets/licenses/).
