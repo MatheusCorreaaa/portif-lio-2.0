@@ -18,7 +18,7 @@ A galeria reflete os repositórios fixados no perfil em novembro de 2026. O sext
 
 ## Implementação
 
-O site usa HTML, CSS e JavaScript. A capa combina meu retrato profissional, um recorte vermelho e tipografia condensada. A navegação por âncoras conecta as seções de perfil, projetos e contato. O JavaScript atualiza o item ativo do menu conforme a rolagem. A página também oferece navegação por teclado e respeita a preferência de movimento reduzido.
+O site usa HTML, CSS e JavaScript. A capa apresenta meu nome e retrato em uma composição editorial, com tipografia condensada, um detalhe em vermelho e acesso direto aos projetos. O ícone da aba usa o mesmo monograma “Mc” do cabeçalho. A navegação por âncoras conecta as seções de perfil, projetos e contato. O JavaScript atualiza o item ativo do menu conforme a rolagem. A página também oferece navegação por teclado e respeita a preferência de movimento reduzido.
 
 ## Executar localmente
 
