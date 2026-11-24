@@ -537,10 +537,13 @@ details p {
 .books .projectart {
   background: #f0d6a7;
 }
+.coffee .projectart {
+  background: #211811;
+}
 .coffee .projectart img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .lista .projectart {
   background: #9cc2ad;
