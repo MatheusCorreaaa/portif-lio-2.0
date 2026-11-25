@@ -10,7 +10,7 @@ Portfólio de desenvolvimento front-end com projetos em Angular, TypeScript e Ja
 | --- | --- |
 | [Job Hunter](https://github.com/MatheusCorreaaa/job-hunter) | Aplicativo desktop em Electron que busca vagas de tecnologia e ajuda a acompanhar candidaturas. |
 | [Resolution Fast](https://github.com/MatheusCorreaaa/ResolutionFast) | Aplicativo em C# e Windows Forms para alternar a resolução da tela com um clique ou atalho de teclado. |
-| [The New York Coffee – Alphaville](https://github.com/MatheusCorreaaa/tnyc-alphaville) | Site da cafeteria com fotos e preços do cardápio, avaliações e informações para visita. |
+| [The New York Coffee – Alphaville](https://matheuscorreaaa.github.io/tnyc-alphaville/) | Site da cafeteria com fotos e preços do cardápio, avaliações e informações para visita. |
 | [Buscante](https://github.com/MatheusCorreaaa/buscante-livros) | Consulta a API do Google Books e exibe os detalhes dos livros encontrados. |
 | [Lista de Compra](https://github.com/MatheusCorreaaa/Lista-de-compra) | Lista interativa para editar itens e marcar os produtos comprados. |
 
